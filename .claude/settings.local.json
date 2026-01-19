@@ -16,7 +16,9 @@
       "Bash(git commit -m \"$\\(cat <<''EOF''\nFix Vercel output directory configuration\n\nSet outputDirectory to root and disable build command for static site.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "WebFetch(domain:epochholdings.co)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nLink Epoch Markets button to epochmarkets.co\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nReplace headline with logo featuring liquid glass effect\n\n- Added EH monogram logo as centerpiece\n- Applied translucent liquid glass styling with glow\n- Logo inverted for dark background visibility\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nReplace headline with logo featuring liquid glass effect\n\n- Added EH monogram logo as centerpiece\n- Applied translucent liquid glass styling with glow\n- Logo inverted for dark background visibility\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nLink Markets nav item to epochmarkets.co\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Epoch Markets logo to button icon\n\nReplaced generic icon with custom Epoch Markets \"E\" logo.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
