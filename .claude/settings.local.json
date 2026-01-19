@@ -2,7 +2,21 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - Epoch Holdings website\n\nStatic HTML website configured for Vercel deployment.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:epoch-holdings.vercel.app)",
+      "WebFetch(domain:epoch-holdings-silver5ound.vercel.app)",
+      "WebFetch(domain:epoch-holdings-git-main-silver5ound.vercel.app)",
+      "WebFetch(domain:epoch-holdings-silver5ounds-projects.vercel.app)",
+      "WebFetch(domain:epochholdings.vercel.app)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix Vercel output directory configuration\n\nSet outputDirectory to root and disable build command for static site.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "WebFetch(domain:epochholdings.co)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nLink Epoch Markets button to epochmarkets.co\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nReplace headline with logo featuring liquid glass effect\n\n- Added EH monogram logo as centerpiece\n- Applied translucent liquid glass styling with glow\n- Logo inverted for dark background visibility\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
