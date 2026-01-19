@@ -1,0 +1,221 @@
+<html lang="en" class="dark"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Holdings</title>
+    <meta name="description" content="Long-term holding company providing infrastructure for disciplined growth.">
+    
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    
+    <style>
+        /* Template: Precision Typography */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-feature-settings: "ss01", "ss02";
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #0d0d0e;
+            color: #ffffff;
+        }
+
+        /* Template: Smooth Reveal Animation */
+        .reveal-text {
+            animation: reveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        @keyframes reveal {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-500 { animation-delay: 0.5s; }
+
+        /* Template: Lenis Styles */
+        html.lenis { height: auto; }
+        .lenis.lenis-smooth { scroll-behavior: auto; }
+        .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+        .lenis.lenis-stopped { overflow: hidden; }
+        .lenis.lenis-scrolling iframe { pointer-events: none; }
+
+        /* Epoch: Text Glow */
+        .text-glow {
+            text-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        
+        ::selection {
+            background: #22d3ee;
+            color: #000;
+        }
+
+        /* Background Noise */
+        .bg-noise {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+            pointer-events: none;
+        }
+    </style>
+<link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">.font-geist { font-family: 'Geist', sans-serif !important; }</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">.font-roboto { font-family: 'Roboto', sans-serif !important; }</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">.font-montserrat { font-family: 'Montserrat', sans-serif !important; }</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">.font-poppins { font-family: 'Poppins', sans-serif !important; }</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">.font-playfair { font-family: 'Playfair Display', serif !important; }</style><link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">.font-merriweather { font-family: 'Merriweather', serif !important; }</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">.font-manrope { font-family: 'Manrope', sans-serif !important; }</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">.font-work-sans { font-family: 'Work Sans', sans-serif !important; }</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">.font-pt-serif { font-family: 'PT Serif', serif !important; }</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">.font-geist-mono { font-family: 'Geist Mono', monospace !important; }</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">.font-space-mono { font-family: 'Space Mono', monospace !important; }</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">.font-quicksand { font-family: 'Quicksand', sans-serif !important; }</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">.font-nunito { font-family: 'Nunito', sans-serif !important; }</style><link id="all-fonts-link-font-newsreader" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..800&amp;display=swap"><style id="all-fonts-style-font-newsreader">.font-newsreader { font-family: 'Newsreader', serif !important; }</style><link id="all-fonts-link-font-google-sans-flex" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-google-sans-flex">.font-google-sans-flex { font-family: 'Google Sans Flex', sans-serif !important; }</style><link id="all-fonts-link-font-oswald" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-oswald">.font-oswald { font-family: 'Oswald', sans-serif !important; }</style><link id="all-fonts-link-font-dm-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-dm-sans">.font-dm-sans { font-family: 'DM Sans', sans-serif !important; }</style><link id="all-fonts-link-font-cormorant" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-cormorant">.font-cormorant { font-family: 'Cormorant Garamond', serif !important; }</style></head>
+<body class="bg-[#0d0d0e] text-white overflow-x-hidden selection:bg-cyan-400 selection:text-black">
+
+    <!-- BACKGROUND: Spline 3D + Grid System -->
+    <div class="spline-container fixed top-0 w-full h-screen -z-10 pointer-events-none">
+        <!-- Re-using iframe background but dimmed slightly more for button readability -->
+        <iframe src="https://my.spline.design/3dgradient-AcpgG6LxFkpnJSoowRHPfcbO" frameborder="0" width="100%" height="100%" class="opacity-60"></iframe>
+    </div>
+    
+    <!-- Background layers (Grid & Dots) -->
+    <div class="fixed inset-0 -z-10 pointer-events-none">
+        <div class="absolute inset-0 opacity-[0.35] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] mix-blend-overlay"></div>
+        <div class="absolute inset-0 opacity-[0.1] bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] [background-size:120px_1px,1px_120px]"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0d0d0e]/80 via-transparent to-[#0d0d0e]"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-6 md:px-12 md:py-8 mix-blend-difference">
+        <a href="#" onclick="lenis.scrollTo('#hero')" class="lowercase hover:opacity-70 transition-opacity text-sm font-semibold tracking-tight cursor-pointer text-white">
+            epoch holdings
+        </a>
+        <div class="hidden md:flex gap-8 text-[11px] font-medium tracking-widest uppercase text-neutral-400">
+            <button onclick="lenis.scrollTo('#markets')" class="hover:text-white transition-colors cursor-pointer">Markets</button>
+            <button onclick="lenis.scrollTo('#digital')" class="hover:text-white transition-colors cursor-pointer">Digital</button>
+        </div>
+    </nav>
+
+    <!-- Main Content Wrapper -->
+    <main class="w-full relative z-10">
+
+        <!-- Hero Section -->
+        <header id="hero" class="min-h-screen flex flex-col justify-center items-center w-full px-6 md:px-12 pt-24 pb-12 relative">
+            
+            <div class="text-center w-full max-w-4xl mx-auto mb-16 md:mb-20">
+                <h1 class="text-6xl md:text-9xl font-bold tracking-tighter mb-8 text-white text-glow reveal-text leading-[0.9]">
+                    Rethink <br class="hidden md:block">
+                    <span class="text-neutral-500">Growth.</span>
+                </h1>
+                <div class="max-w-xl mx-auto reveal-text delay-100">
+                    <p class="font-normal text-lg md:text-xl leading-relaxed text-neutral-400">
+                        Epoch Holdings exists to support portfolio companies, not compete with them. Infrastructure for the long term.
+                    </p>
+                </div>
+            </div>
+
+            <!-- BUTTONS SECTION: Compact Pill Shape with Hover Reveal -->
+            <div class="flex flex-wrap justify-center gap-4 reveal-text delay-200">
+                
+                <!-- Pill 1: Epoch Markets -->
+                <a href="#" id="markets" class="group relative flex items-center p-1.5 rounded-full border border-white/10 bg-white/[0.03] hover:bg-white/[0.08] hover:border-cyan-500/30 transition-all duration-500 ease-out cursor-pointer overflow-hidden backdrop-blur-md">
+                    <div class="relative z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-neutral-400 group-hover:bg-cyan-500/20 group-hover:text-cyan-400 transition-colors duration-300">
+                        <iconify-icon icon="solar:scanner-linear" width="20"></iconify-icon>
+                    </div>
+                    <div class="max-w-0 group-hover:max-w-[200px] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] overflow-hidden">
+                        <span class="pl-3 pr-5 text-sm font-medium tracking-wide text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-75">
+                            Epoch Markets
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Pill 2: Epoch Digital -->
+                <a href="#" id="digital" class="group relative flex items-center p-1.5 rounded-full border border-white/10 bg-white/[0.03] hover:bg-white/[0.08] hover:border-fuchsia-500/30 transition-all duration-500 ease-out cursor-pointer overflow-hidden backdrop-blur-md">
+                    <div class="relative z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-neutral-400 group-hover:bg-fuchsia-500/20 group-hover:text-fuchsia-400 transition-colors duration-300">
+                        <iconify-icon icon="solar:cpu-linear" width="20"></iconify-icon>
+                    </div>
+                    <div class="max-w-0 group-hover:max-w-[200px] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] overflow-hidden">
+                        <span class="pl-3 pr-5 text-sm font-medium tracking-wide text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-75">
+                            Epoch Digital
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Bottom Status Indicator -->
+            <div class="absolute bottom-12 w-full px-12 hidden md:flex justify-between items-center text-[10px] uppercase tracking-widest text-neutral-600 reveal-text delay-300">
+                <div class="flex items-center gap-2">
+                    <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
+                    Operational
+                </div>
+                <div>EST. 2024</div>
+            </div>
+        </header>
+
+        <!-- Philosophy/Approach Section -->
+        <section class="py-32 px-6 md:px-12 border-t border-neutral-900 bg-[#0d0d0e]/95 backdrop-blur-md relative z-20">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-20 reveal-text">
+                    <h2 class="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-600">Our Approach</h2>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-8">
+                    <div class="flex flex-col items-center text-center group reveal-text delay-100">
+                        <span class="w-1 h-1 bg-neutral-700 rounded-full mb-6 group-hover:bg-cyan-500 group-hover:scale-150 transition-all duration-500"></span>
+                        <p class="text-sm font-medium text-neutral-300 tracking-wide group-hover:text-white transition-colors">Long-term<br>Orientation</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center group reveal-text delay-200">
+                        <span class="w-1 h-1 bg-neutral-700 rounded-full mb-6 group-hover:bg-fuchsia-500 group-hover:scale-150 transition-all duration-500"></span>
+                        <p class="text-sm font-medium text-neutral-300 tracking-wide group-hover:text-white transition-colors">Disciplined<br>Allocation</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center group reveal-text delay-300">
+                        <span class="w-1 h-1 bg-neutral-700 rounded-full mb-6 group-hover:bg-cyan-500 group-hover:scale-150 transition-all duration-500"></span>
+                        <p class="text-sm font-medium text-neutral-300 tracking-wide group-hover:text-white transition-colors">Operator<br>Led</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center group reveal-text delay-500">
+                        <span class="w-1 h-1 bg-neutral-700 rounded-full mb-6 group-hover:bg-fuchsia-500 group-hover:scale-150 transition-all duration-500"></span>
+                        <p class="text-sm font-medium text-neutral-300 tracking-wide group-hover:text-white transition-colors">Sustainable<br>Growth</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w-full border-t border-neutral-900 py-24 px-6 text-center reveal-text relative z-20 bg-[#0d0d0e]">
+            <div class="flex flex-col items-center gap-8">
+                <div class="w-12 h-px bg-neutral-800"></div>
+                
+                <div class="flex flex-col gap-2">
+                    <span class="text-base font-semibold tracking-tight text-white">Epoch Holdings</span>
+                    <div class="text-[10px] uppercase tracking-[0.2em] text-neutral-600">
+                        © 2024
+                    </div>
+                </div>
+                
+                <a href="mailto:inquiries@epochholdings.com" class="text-sm text-neutral-500 hover:text-white transition-colors font-normal tracking-wide border-b border-transparent hover:border-neutral-700 pb-0.5">
+                    inquiries@epochholdings.com
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        // --- Smooth Scroll Setup (Lenis) ---
+        const lenis = new Lenis({
+            duration: 1.5,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            direction: 'vertical',
+            gestureDirection: 'vertical',
+            smooth: true,
+            mouseMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+
+</body></html>
